@@ -1,5 +1,6 @@
 package queue
 
+// Path: go-support/pkg/ds/queue/interface.go
 type Queue interface {
 	// allocate() — Allocates the required amount of  memory for a required capacity
 	Allocate()
